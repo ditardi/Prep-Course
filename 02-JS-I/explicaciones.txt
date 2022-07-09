@@ -1,0 +1,10 @@
+Variables:
+Una variables es un elemento que puede guardar un dato. para eso a la variable hay que decirle que queremos que guarde.
+
+Strings: es un tipo de dato que contiene cadenas de caracteres, osea palabras y espacios.
+
+Funciones: una función es un elemento al que le metemos un dato y te devuelve un resultado, todas las funciones tienen el objetivo de "hacer algo", son objetos inviables... un pibe de 12 años no entiende esto ni en pedo
+
+Declaraciones IF: es un condicional, es la tradución mas o menos de "si pasa esto", es muy importante ya que controla el flujo
+
+Valores Booleanos: son los famosos verdadero o falso, son operadores de comparación, evaluán uno o mas datos y te dice si la comparación es true or false, en realidad es mucho mas complejo que eso pa
