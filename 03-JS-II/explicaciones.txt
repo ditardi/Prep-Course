@@ -1,0 +1,9 @@
+For es una operación que se repite desee un punto prefijado y mientas de de una condición determinada por la misma operación, una vez que las condiciones no se cumplan se deja de repetir el bucle, osea "se sale" del mismo...
+
+&& (AND) es un operador lógico que se usa para comparar 2 elementos en los cuales la condición para que sea true es que ambos operandos sean true
+
+|| (OR) es un operador lógico en el cual para que la condición sea true al menos 1 de los dos operandos tiene que ser true
+
+
+!(NOT) este operando invierte la condición que se esté evaluando, por ejemplo !== es lo opuesto a ==.
+
