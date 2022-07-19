@@ -1,0 +1,5 @@
+Los Arrays son listas ordenadas, pueden tener números, strings, funciones, objetos full, undefined, otras listas.
+Se dice que no es un objeto nativo sinó que es construido, esaaaaa
+Los elementos en las listas tienen posición que juegan un rl fundamental, ya que cada dato se puede acceder gracias a su indexación esaaaa
+Los elementos se pueden agregar, sobreescribir, borrar.
+Uno puede acceder a los elementos de una lista y usarlos como si estuvieran fuera de esta, por ejemplo si un item es una funci´øn uno puede invocarla simplemente conociendo su posición en la lista, y muchas cosas mas
