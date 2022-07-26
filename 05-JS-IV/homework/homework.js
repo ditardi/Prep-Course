@@ -70,7 +70,7 @@ function tieneEmail (usuario) {
  
 //return usuario.hasOwnProperty('email');
 
-  if(usuario['email']) {
+  if(usuario.email) {
     return true;
   }
   else {
