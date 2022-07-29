@@ -14,12 +14,26 @@ function Usuario(opciones) {
     this.nombre = opciones.nombre;
     this.email = opciones.email;
     this.password = opciones.password
-  }
+    }
   Usuario.prototype.saludar = function () {
     return "Hola, mi nombre es " + this.nombre;
     }
-return Usuario
+return Usuario 
 }
+
+/*
+class Usuario {
+  Constructor(opciones) {
+    this.usuario = opciones.usuario;
+    this.nombre = opciones.nombre;
+    this.email = opciones.email;
+    this.password = opciones.password
+    this.saludar = function () {
+      return "Hola, mi nombre es " + this.nombre;
+    }
+  }
+}
+*/
 
 function agregarMetodoPrototype(Constructor) {
   // Agrega un método al Constructor del `prototype`
@@ -39,7 +53,15 @@ function agregarStringInvertida() {
 String.prototype.reverse = function () {
   return this.split("").reverse().join("")
   }
+/*
+var stringInvertida =""
+for (var i=this.length-1; i>=0; i--){
+stringInvertida = stringInvertida + this[i]
+  }
+  return stringInvertida;
+*/
 }
+
 
 // ---------------------------------------------------------------------------//
   //Crea el constructor de la clase "Persona"
@@ -54,10 +76,10 @@ String.prototype.reverse = function () {
 
   class Persona {
     constructor(nombre, apellido, edad, domicilio) {
-      this.nombre = nombre,
-      this.apellido = apellido,
-      this.edad = edad,
-      this.domicilio = domicilio,
+      this.nombre = nombre;
+      this.apellido = apellido;
+      this.edad = edad;
+      this.domicilio = domicilio;
       this.detalle = function () {
         return {
           Nombre : this.nombre,
@@ -83,8 +105,7 @@ function agregarMetodo() {
 Persona.prototype.datos = function(nombre, edad) {
   return this.nombre + ", " + this.edad + " años"; 
   }
-  return Persona
-
+return Persona
 }
   
 
