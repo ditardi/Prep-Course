@@ -1,15 +1,34 @@
+		body {
+			background-image: url(https://img.freepik.com/free-vector/seamless-pattern_1159-5086.jpg?w=2000);
+			background-size: 200px;
+
+		}
+		.divClass {
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+			padding: 10px;
+			}
+
 		h1 {
 			color: darkred;
 		}
 		img {
 			width: 400px;
 		}
+		a {
+				color: #efb710;
+			}
 		#thirdDiv {
+			display: flex;
+			justify-content: center;
+		}
+		#thirdDiv div{
 			height: 600px;
 			width: 500px;
-			background: #dfdfdf;
+			background: #efefef;
 			padding: 50px;
-			border: 20px solid #bfbfbf;
+			border: 5px solid #bfbfbf;
 		}
 		#spanId {
 			font-size: 18px;
